@@ -18,13 +18,23 @@ This seems to be the newest way to access the API and is suggested by MLB.com.
 #### Full season schedule
 `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate=2019-03-28&endDate=2019-09-29`
 
+### Individual game content
+
+`http://statsapi.mlb.com/api/v1/game/[gameID]/content`
+
 ### MLB and Minor League Ballparks
 
 `http://statsapi.mlb.com/api/v1/venues`
 
+#### Find info for a specific park
+`http://statsapi.mlb.com/api/v1/venues/[venueID]`
+
 ### MLB and Minor League Teams
 
 `http://statsapi.mlb.com/api/v1/teams`
+
+#### Find info for a specific team
+`http://statsapi.mlb.com/api/v1/teams/[teamID]`
 
 <br>
   
