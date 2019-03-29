@@ -3,7 +3,11 @@
 
 The MLB.com API is quite an illusive thing. This should help you get to some commonly used end points.
 
+<br>
+
 ## New API Data
+
+This seems to be the newest way to access the API and is suggested by MLB.com.
 
 ### Games scheduled for today
 
@@ -17,10 +21,11 @@ The MLB.com API is quite an illusive thing. This should help you get to some com
 #### One Month
 `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate=2019-06-01&endDate=2019-06-30`
 
-
+<br>
+  
 ## Old API Data
 
-There is a message in the JSON data that this URL is deprecated but you can access game and social media data through this directory:
+This is an older way of accessing the API. There is a message in the JSON data that this URL is deprecated but you can access game and social media data through this directory:
 
 `http://gdx.mlb.com/components/game/mlb/`
 
