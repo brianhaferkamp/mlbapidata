@@ -13,14 +13,20 @@ This seems to be the newest way to access the API and is suggested by MLB.com.
 
 `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=1`
 
+<br>
+
 ### Games scheduled for particular days
 
 #### Full season schedule
 `http://statsapi.mlb.com/api/v1/schedule/games/?sportId=1&startDate=2019-03-28&endDate=2019-09-29`
 
+<br>
+
 ### Individual game content
 
 `http://statsapi.mlb.com/api/v1/game/[gameID]/content`
+
+<br>
 
 ### MLB and Minor League Ballparks
 
@@ -28,6 +34,8 @@ This seems to be the newest way to access the API and is suggested by MLB.com.
 
 #### Find info for a specific park
 `http://statsapi.mlb.com/api/v1/venues/[venueID]`
+
+<br>
 
 ### MLB and Minor League Teams
 
@@ -44,16 +52,19 @@ This is an older way of accessing the API. There is a message in the JSON data t
 
 `http://gdx.mlb.com/components/game/mlb/`
 
+<br>
 
 ### Gameday Scoreboard (all games for a date)
 
 `http://gdx.mlb.com/components/game/mlb/year_2019/month_03/day_28/master_scoreboard.json`
 
+<br>
 
 ### Gameday Mini Scoreboard (all games for a date)
 
 `http://gdx.mlb.com/components/game/mlb/year_2019/month_03/day_28/miniscoreboard.json`
 
+<br>
 
 ### Data options for specific game matchups (by date)
 
@@ -61,6 +72,7 @@ This is an older way of accessing the API. There is a message in the JSON data t
 
 In this directory, you'll see the matchups for the day in the URL above. Click into those individual matchups and get more options for game-specific data including, lineups, box scores, plays, event logs, and more.
 
+<br>
 
 ### Team-specific Insider tweets
 
@@ -69,6 +81,7 @@ In this directory, you'll see the matchups for the day in the URL above. Click i
 Get Atlanta Braves Insider tweets:
 `http://gdx.mlb.com/components/game/mlb/twitter/atlInsiderTweets.json`
 
+<br>
 
 ### Official team tweets
 
@@ -77,11 +90,13 @@ Get Atlanta Braves Insider tweets:
 Get Atlanta Braves official tweets:
 `http://gdx.mlb.com/components/game/mlb/twitter/teams/BravesTweets.json`
 
+<br>
 
 ### MLB Fan Cave tweets
 
 `http://gdx.mlb.com/components/game/mlb/twitter/fanCave/`
 
+<br>
 
 ### MLB Sports on Earth tweets
 
