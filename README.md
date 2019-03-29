@@ -1,7 +1,7 @@
 # MLB API DATA
 #### Endpoints to get MLB.com API data
 
-The MLB.com API is quite an illusive thing. There is a message in the JSON data that this URL is deprecated but you can access game and social media data through:
+The MLB.com API is quite an illusive thing. There is a message in the JSON data that this URL is deprecated but you can access game and social media data through this directory:
 
 http://gdx.mlb.com/components/game/mlb/
 
