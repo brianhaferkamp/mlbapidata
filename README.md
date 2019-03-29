@@ -1,7 +1,7 @@
 # MLB API DATA
 #### Endpoints to get MLB.com API data
 
-The MLB.com API is quite an illusive thing. This data should help you get to some common end points.
+The MLB.com API is quite an illusive thing. This should help you get to some common end points.
 
 ## New API Data
 
