@@ -45,6 +45,21 @@ This seems to be the newest way to access the API and is suggested by MLB.com.
 `http://statsapi.mlb.com/api/v1/teams/[teamID]`
 
 <br>
+
+### Standing information
+
+`https://statsapi.mlb.com/api/v1/standings?leagueId=[leagueID]&season=[season]&date=[date]&standingsTypes=[types]&hydrate=[hydrate]`
+
+**explanation**
+- leagueId: which league(s) to show, e.g., `103` is AL and `104` is NL. (`103,104` is available)
+- season: which season to show, e.g., `2022`.
+- date: which date to show, date is in the format `YYYY-MM-DD`.
+- standingsTypes: which types of games to show, e.g., `regularSeason` and `springTraining`, or combine them (`regularSeason,springTraining`).
+- hydrate: which information to show in detail, e.g.. `division`, `sport`, `league` and `team` are available. (of course they can be combined as well)
+
+The JSON of this response can be divided into 6 parts, and every part represents a league and a division (e.g., `AL west`), then you can find every team in `teamRecords` in the six parts.
+
+<br>
   
 ## Old API Data
 
